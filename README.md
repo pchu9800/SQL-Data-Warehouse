@@ -33,22 +33,18 @@ The key components of this project include:
 
 ## 📂 Repository Structure
 
-data-warehouse-project/
-│
-├── datasets/
-│   ├── source_crm/      # Raw CRM datasets
-│   └── source_erp/      # Raw ERP datasets
-│
-├── docs/                # Project documentation and diagrams
-│
-├── scripts/
-│   ├── bronze/          # Raw data ingestion scripts (.sql)
-│   ├── silver/          # Data cleaning & transformation scripts (.sql)
-│   └── gold/            # Analytical model scripts (.sql)
-│
-├── tests/               # Test scripts and quality checks
-│
-├── README.md            # Project overview and instructions
+    sql-data-warehouse
+    │
+    ├── datasets/           # Raw source data
+    │   ├── source_crm/     # CRM datasets
+    │   └── source_erp/     # ERP datasets
+    ├── docs/
+    ├── scripts/            # SQL scripts for ETL and transformations
+    │   ├── bronze/         # Raw data ingestion scripts
+    │   ├── silver/         # Data cleaning and transformation scripts
+    │   └── gold/           # Analytical model scripts
+    ├── tests/              # Test scripts and quality checks
+    └── README.md           # Project overview and instructions
 
 
 
